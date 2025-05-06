@@ -58,18 +58,18 @@ class Calculator:
     Calculator Commands:
     +, -, *, /, ^   Basic arithmetic
     ( )             Parentheses for grouping
-    r               Use last result (e.g. 'r + 5')
+    r               Use last result (i.e 'r + 5')
     
     Special Commands:
     help            Show this help
     history         Show calculation history
     clear/cls/c     Clear screen
-    quit/q/exit     Exit calculator
+    quit/q/exit     Exit 
     """
         print(help_text.strip())
     
     def _evaluate_expression(self, expr):
-        """Core evaluation logic"""
+        """evaluation logic"""
         if 'r' in expr:
             if self.last_result is None:
                 raise ValueError("No previous result ('r') available")
