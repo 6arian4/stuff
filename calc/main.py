@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Command-line calculator with history and result memory
 Features:
